@@ -34,7 +34,7 @@ func calculate(number int, numberTwo int, operation string) (result int, err err
 		case "/":
 			result = number / numberTwo
 		default:
-			err = errors.New("Unknown Operation")
+			err = errors.New("unknown operation")
 	}
 
 	return
